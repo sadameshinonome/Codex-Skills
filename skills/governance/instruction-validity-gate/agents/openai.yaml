@@ -1,0 +1,7 @@
+interface:
+  display_name: "Instruction Validity Gate"
+  short_description: "自由指示とskill文言を判定し、有効な指示だけを反映"
+  default_prompt: "Use $instruction-validity-gate to validate these instructions and return only the applicable set."
+
+policy:
+  allow_implicit_invocation: true

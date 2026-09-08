@@ -1,0 +1,7 @@
+interface:
+  display_name: "Skill Manager"
+  short_description: "skill改善と新規skillの最終検証を安全に管理"
+  default_prompt: "Use $skill-manager to audit or safely apply an approved skill improvement; stop after findings when no exact APPLY bundle is approved."
+
+policy:
+  allow_implicit_invocation: false
